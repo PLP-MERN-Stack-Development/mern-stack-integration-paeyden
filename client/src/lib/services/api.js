@@ -100,7 +100,15 @@ export const categoryService = {
     const response = await api.post('/categories', categoryData);
     return response.data;
   },
+ // Get posts by category ID
+  getPostsByCategory: async (categoryId) => {
+    const response = await api.get(`/categories/${categoryId}/posts`);
+    return response.data;
+  },
+
 };
+
+
 
 // Auth API services
 export const authService = {
@@ -131,6 +139,14 @@ export const authService = {
     const user = localStorage.getItem('user');
     return user ? JSON.parse(user) : null;
   },
+};
+
+// update user profile
+export const userService = {
+  updateUser: async (id, data) => {
+  const response = await api.put(`/users/${id}`, data);
+  return response.data;
+}
 };
 
 export default api; 
