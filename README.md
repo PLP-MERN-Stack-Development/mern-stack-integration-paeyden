@@ -4,8 +4,8 @@
 -The project follows clean architecture principles with a well-defined folder structure, reusable components, and clear separation of concerns between client and server.
 
 # 📁 Project Structure
-<pre><code>```txt mern-blog/ │ ├── client/                 # React front-end (Vite) │   ├── src/ │   │   ├── components/     # Reusable UI components │   │   ├── pages/          # Page views (Home, Post, Create, etc.) │   │   ├── hooks/          # Custom React hooks │   │   ├── services/       # API service for back-end communication │   │   └── App.jsx         # Root React component │   ├── .env.example │   └── package.json │ ├── server/                 # Express.js back-end │   ├── models/             # Mongoose models (Post, Category, User) │   ├── routes/             # Express routes for posts, categories, auth, etc. │   ├── middleware/         # Validation and error-handling middleware │   ├── controllers/        # Logic for API endpoints │   ├── config/             # MongoDB connection setup │   ├── .env.example │   └── server.js           # Entry point │ └── README.md
-``` </code></pre>
+ mern-blog/ │ ├── client/                 # React front-end (Vite) │   ├── src/ │   │   ├── components/     # Reusable UI components │   │   ├── pages/          # Page views (Home, Post, Create, etc.) │   │   ├── hooks/          # Custom React hooks │   │   ├── services/       # API service for back-end communication │   │   └── App.jsx         # Root React component │   ├── .env.example │   └── package.json │ ├── server/                 # Express.js back-end │   ├── models/             # Mongoose models (Post, Category, User) │   ├── routes/             # Express routes for posts, categories, auth, etc. │   ├── middleware/         # Validation and error-handling middleware │   ├── controllers/        # Logic for API endpoints │   ├── config/             # MongoDB connection setup │   ├── .env.example │   └── server.js           # Entry point │ └── README.md
+
 
 ## ⚙️ Setup Instructions
 ### Prerequisites
@@ -19,10 +19,10 @@ Make sure you have installed:
 
 
 ## 1️⃣ Clone the repository
-<pre><code>````bash#cloneyourproject'srepourlgitcloneyourrepourl#gotothedirectoryoftheprojectcdyour-project```</code></pre>
+cloneyourproject'srepourlgitcloneyourrepourl#gotothedirectoryoftheprojectcdyour-project
 
 ## 2️⃣ Set up the Server
-<pre><code>```bash#changedirectorytotheservercdserver#installdependenciesnpminstall```</code></pre>
+changedirectorytotheservercdserver#installdependenciesnpminstall
 
 
 -Create a .env file in the server directory:
