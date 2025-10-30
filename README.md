@@ -131,8 +131,6 @@ The client will typically start on http://localhost:5173
 
 - Authentication (Login/Register)
 
-- Image uploads (using Multer or Cloudinary)
-
 - Pagination and search
 
 
